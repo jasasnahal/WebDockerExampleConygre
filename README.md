@@ -2,10 +2,16 @@
 
 This image requires port 80 to work.
 
-An example of running the image on port 8080:
+You can use the following command to pull the docker image:
 
 ```
-docker run --detach -p docker.conygre.com/jaspreetnahal
+docker pull  docker.conygre.com:5000/jaspreetnahal
+```
+
+An example of running the image on port 8080 with the default name:
+
+```
+docker run --detach -p 8080:80 docker.conygre.com:5000/jaspreetnahal
 ```
 
 To access one of the pages in this application (if for example you're running
