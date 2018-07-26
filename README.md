@@ -1,6 +1,6 @@
 # Instructions
 
-This image requires port 80.
+This application requires port 80.
 
 You can use the following command to pull the docker image:
 
